@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    &__list {
+        padding-top: 30px;
+        display: flex;
+    }
+    &__link {
+        margin-top: 20px;
+        margin-right: 40px;
+        list-style-type: none;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &-item {
+            color: #fff;
+            text-decoration: none;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+            &:hover {
+                color: #ECD3B7;
+                transition: all linear .2s;
+            }
+        }
+        &:first-child {
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+
+    }
+}

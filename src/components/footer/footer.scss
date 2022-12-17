@@ -1,0 +1,25 @@
+.footer {
+    padding: 30px 0 20px 0;
+    height: 100px;
+}
+
+.menu {
+    display: block;
+    &__link {
+        text-shadow: none;
+        color: #000000;
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.black {
+    color: #000000;
+}

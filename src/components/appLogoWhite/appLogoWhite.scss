@@ -1,0 +1,16 @@
+.logo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .divider-white {
+        width: 60px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+    img {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,46 @@
+.mainScreen {
+    height: 640px;
+    background-color: #BAA46F;
+    background: url('../../img/background/main-bg.webp') center center/cover no-repeat;
+}
+
+.promo {
+    &__text {
+        padding-top: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-title {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 58px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+        &-subtitle {
+            margin-top: 35px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 35px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    }
+
+    &__button {
+        margin-top: 20px;
+        width: 120px;
+        height: 30px;
+        background: none;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
