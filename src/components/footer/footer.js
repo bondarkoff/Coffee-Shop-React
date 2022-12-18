@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import { BeansBlack } from '../../img'
 import AppLogoBlack from '../appLogoBlack/appLogoBlack'
 
@@ -14,13 +16,13 @@ const Footer = () => {
                             <img src={BeansBlack} alt="Coffee Beans White"/>
                         </li>
                         <li className="menu__link">
-                            <a className="menu__link-item black" href="index.html">Coffee house</a>
+                            <Link className="menu__link-item black" to="/">Coffee house</Link>
                         </li>
                         <li className="menu__link">
-                            <a className="menu__link-item black" href="about.html">Our coffee</a>
+                            <Link className="menu__link-item black" to="/ourCoffee">Our coffee</Link>
                         </li>
                         <li className="menu__link">
-                            <a className="menu__link-item black" href="goods.html">For your pleasure</a>
+                            <Link className="menu__link-item black" to="/">For your pleasure</Link>
                         </li>
                     </nav>
                 </div>
@@ -30,4 +32,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export {Footer}

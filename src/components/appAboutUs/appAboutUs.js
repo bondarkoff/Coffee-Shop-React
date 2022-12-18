@@ -26,4 +26,4 @@ const AppAboutUs = () => {
     )
 }
 
-export default AppAboutUs
+export {AppAboutUs}

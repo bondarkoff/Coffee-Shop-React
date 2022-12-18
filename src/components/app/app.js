@@ -1,19 +1,18 @@
-import AppAboutUs from '../appAboutUs/appAboutUs';
-import AppOurBest from '../appOurBest/appOurBest';
-import MainScreen from '../mainScreen/mainScreen';
-import Footer from '../footer/footer';
+
+
+import { Route, Routes } from 'react-router-dom'
+import { Home } from '../../pages/home'
+import { OurCoffee } from '../../pages/ourCoffee'
 
 import './app.scss';
 
 
 function App() {
     return (
-        <div className="app">
-            <MainScreen/>
-            <AppAboutUs/>
-            <AppOurBest/>
-            <Footer/>
-        </div>
+        <Routes>
+            <Route path='/' element={<Home />}/>
+            <Route path='/ourCoffee' element={<OurCoffee/>}/>
+        </Routes>
     )
 }
 

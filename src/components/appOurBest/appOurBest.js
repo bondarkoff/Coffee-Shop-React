@@ -37,4 +37,4 @@ const AppOurBest = () => {
     )
 }
 
-export default AppOurBest
+export {AppOurBest}

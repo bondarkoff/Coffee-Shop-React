@@ -1,6 +1,6 @@
 import './menu.scss'
-
 import { BeansWhite } from '../../img'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -13,13 +13,13 @@ const Header = () => {
                                 <img src={BeansWhite} alt="Coffee Beans White"/>
                             </li>
                             <li className="menu__link">
-                                <a className="menu__link-item" href="index.html">Coffee house</a>
+                                <Link className="menu__link-item" to="/">Coffee house</Link>
                             </li>
                             <li className="menu__link">
-                                <a className="menu__link-item" href="about.html">Our coffee</a>
+                                <Link className="menu__link-item" to="/ourCoffee">Our coffee</Link>
                             </li>
                             <li className="menu__link">
-                                <a className="menu__link-item" href="goods.html">For your pleasure</a>
+                                <Link className="menu__link-item" to="/">For your pleasure</Link>
                             </li>
                         </ul>
                     </nav>
