@@ -1,6 +1,8 @@
 import Header from '../menu/menu'
 import AppLogoWhite from '../appLogoWhite/appLogoWhite'
 
+import { Link } from 'react-router-dom'
+
 import './mainScreen.scss'
 
 
@@ -15,9 +17,9 @@ const MainScreen = () => {
                         <AppLogoWhite/>
                         <h2 className="promo__text-subtitle">We makes every day full of energy and taste<br/> Want to try our beans?</h2>
                         <div className="promo__text-button">
-                            <form action="#" target="_blank">
+                            <Link to="/ourCoffee">
                                 <button className="promo__button">More</button>
-                            </form>
+                            </Link>
                         </div>
                     </div>
                 </div>

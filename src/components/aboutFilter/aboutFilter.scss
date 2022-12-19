@@ -43,6 +43,9 @@
         border-radius: 4px 0px 0px 4px;
         border: 1px;
         cursor: pointer;
+        &:active {
+            background: red;
+        }
     }
     &__text {
         margin-right: 35px;
